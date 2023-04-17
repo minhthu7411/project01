@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav__logo a {
+    color: var(--primary-color);
+    margin-left: 20px;
+}
+
+.nav__menu {
+}
+
+.nav__button {
+}
