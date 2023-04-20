@@ -388,6 +388,8 @@ a {
     color: #4D4D52;
 }
 
+/* ======================= Stats =========================== */
+
 .stats {
     margin-top: 75px;
 }
@@ -523,4 +525,130 @@ a {
     font-size: 1.8rem;
     color: #7B8087;
     margin-top: 24px;
+}
+
+/* ======================= Subscription =========================== */
+
+.subscription {
+    margin-top: 120px;
+}
+
+.subscription .content {
+    background: #063183;
+    border-radius: 20px;
+}
+
+.subscription .body {
+    height: 370px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.subscription .info {
+    padding: 0 80px;
+}
+
+.subscription .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.subscription .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-top: 15px;
+}
+
+.btn-subscribe {
+    margin-top: 20px;
+    min-width: 151px;
+    color: #002366;
+    background-color: #FFF;
+}
+
+.subscription .image {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
+}   
+
+
+/* ======================= Footer =========================== */
+footer {
+    margin-top: 105px;
+}
+
+.row-top {
+    display: flex;
+    gap: 185px;
+}
+
+.row-top .heading {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1C1C1D;
+}
+
+.row-top .list,
+.row-top .desc {
+    margin-top: 44px;
+}
+
+.row-top .item {
+    margin-top: 23px;
+}
+
+.row-top .item .link {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #7A7A7E;
+    white-space: nowrap;
+}
+
+.row-top .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #7A7A7E;
+}
+
+.row-top .social {
+    margin-top: 40px;
+}
+
+.row-top .link-icon {
+    margin-left: 16px;
+}
+
+.row-top .link-icon:first-child {
+    margin-left: 0;
+}
+
+.row-top .icon {
+    width: 40px;
+    height: 40px;
+}
+
+.row-top .icon:hover {
+    opacity: 0.8;
+}
+
+.row-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 58px;
+}
+
+footer .row-bottom .desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #C2C2C2;
 }
