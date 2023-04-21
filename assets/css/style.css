@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,13 +51,21 @@ a {
 /* ===================== Header ================ */
 .header {
     background-color: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
+    background-color: #e6f0ff;
     height: 100vh;
     position: relative;
 }
 
 .navbar {
     display: flex;
-    padding-top: 38px;
+    padding: 12px 0;
     align-items: center;
 }
 
@@ -100,7 +109,7 @@ a {
 }
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
     display: flex;
 }
 
@@ -474,6 +483,18 @@ a {
     margin-left: -3px;
 }
 
+.avatar-none {
+    background-color: var(--avatar-none, #063183);
+    color: #FFF;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;   
+    margin-left: -3px;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
 .stats .info {
     padding: 79px 0 0 165px;
 }
@@ -547,13 +568,15 @@ a {
 
 .subscription .info {
     padding: 0 80px;
+    width: 670px;
 }
 
 .subscription .sub-title {
     font-weight: 600;
     font-size: 3.5rem;
-    line-height: 1;
+    line-height: 1.3;
     color: #FFFFFF;
+
 }
 
 .subscription .desc {
@@ -563,6 +586,7 @@ a {
     color: #FFFFFF;
     opacity: 0.75;
     margin-top: 15px;
+    --line-clamp: 3;
 }
 
 .btn-subscribe {
@@ -611,6 +635,10 @@ footer {
     white-space: nowrap;
 }
 
+.row-top .item .link:hover {
+    color: #1c1c1d;
+}
+
 .row-top .desc {
     font-weight: 400;
     font-size: 1.6rem;
@@ -636,7 +664,7 @@ footer {
 }
 
 .row-top .icon:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .row-bottom {
